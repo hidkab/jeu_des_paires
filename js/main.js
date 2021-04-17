@@ -5,3 +5,9 @@ let allCards = document.getElementsByClassName("colorCard");
 let score = document.getElementById("score");
 score = 0;
 
+// random cards
+colors.sort(function (a, b) {
+  return 0.5 - Math.random ()
+});
+
+
