@@ -87,16 +87,12 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-/* General rules */
-ul {
-  list-style-type: none;
-}
+
 .colorCard {
   background-color: #DBA901;
   height: 15vh;
   width: 12vw;
 }
-
 
 
 /* ==========================================================================
