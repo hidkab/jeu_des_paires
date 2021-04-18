@@ -46,6 +46,24 @@ function endGame(){
   }
 }
 
+// logic code
+// Loop to change the color of cards on click
+for (let i = 0; i < allCards.length; i++){
+  allCards[i].onclick = function(){
+    allCards[i].style.backgroundColor = colors[i];
+    openedCards.push(allCards[i]);
+    openedCards[0].style.pointerEvents = "none";
+    resetClick();
+    setTimeout(function(){ 
+      if(openedCards.length === 2 )
+     {
+      compare();               
+     }
+    }, 1300);  
+  }
+}
+
+
 
 
 
